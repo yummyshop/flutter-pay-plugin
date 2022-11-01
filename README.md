@@ -25,4 +25,4 @@ As an example say you want to edit some native iOS code:
    ```
 4. Now you can create a branch and make changes to files under `pay_ios` repository
 5. (optional) if you want to make changes through Xcode to make use of its swift linting features then you can follow [these steps](https://docs.flutter.dev/development/packages-and-plugins/developing-packages#step-2c-add-ios-platform-code-swifthm). But note that for whatever reason running `flutter build ios --no-codesign` will make some changes to platform iOS version in Podfile and other places. But there is no need to push those changes
-6. After your changes are done and working you can open an PR to merge them. After they are merged make sure to revert changes made in point 3
+6. After your changes are done and working you can open an PR to merge them (IMPORTANT: be careful when openning a PR as by default GitHub will open it against the main repository we forked from not our custom repository). After they are merged make sure to revert changes made in point 3
